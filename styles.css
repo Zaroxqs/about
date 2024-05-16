@@ -1,0 +1,47 @@
+/* Set a black background color for the entire page */
+body {
+    background-image: url('https://media.discordapp.net/attachments/1158412914865209364/1158413430798155866/IMG-20230801-WA0000.jpg?ex=66476c94&is=66461b14&hm=d5c56bfdf0fe81aa7c460332b50a928c04ecd592a9a38b06c334de320bd2ed54&=&format=webp&width=801&height=671');
+    background-size: 100px 50px;
+    background-position: center;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+/* Style the sidebar navigation */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #333;
+}
+
+/* Center the content on the home page */
+.content {
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px; /* Updated font size */
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    font-size: 24px; /* Updated font size */
+    font-family: "Times New Roman", Times, serif;
+}
